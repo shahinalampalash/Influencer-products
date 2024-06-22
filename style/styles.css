@@ -215,3 +215,29 @@ margin-bottom: 16px 200px;
 .footer a{
     margin-right: 10px;
 }
+/* phone device responsive */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .influencer{
+        flex-direction: column;
+        margin: 30px;
+    }
+    .influencer-img{
+        width: 90%;
+    }
+    .sponsor{
+        margin: 30px;
+    }
+    .sponsor img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
